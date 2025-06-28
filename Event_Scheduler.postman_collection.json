@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "a79755f5-5dbd-46dd-a006-8ae8db2c180c",
+		"name": "Event_Scheduler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46272086",
+		"_collection_link": "https://www.postman.com/namdevjadhav-882078/my-workspace/collection/w23sz7c/event-scheduler?action=share&source=collection_link&creator=46272086"
+	},
+	"item": [
+		{
+			"name": "Get All Events",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"AI/Ml Workshop\",\r\n  \"description\": \"Live workshop on AI/Ml\",\r\n  \"start_time\": \"2025-07-01T09:00:00\",\r\n  \"end_time\": \"2025-07-01T10:00:00\",\r\n  \"recurrence\": \"Monday\",\r\n  \"email\": \"ramchandraj760@gmail.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Event Updated",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Team Meeting\",\r\n  \"description\": \"Discuss upcoming sprint and issues\",\r\n  \"start_time\": \"2025-07-01T09:00:00\",\r\n  \"end_time\": \"2025-07-01T10:00:00\",\r\n  \"recurrence\": \"daily\",\r\n  \"email\": \"ramchandraj760@gmail.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events/aa47f360-d2bc-4406-b041-d3b71df41cc5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events",
+						"aa47f360-d2bc-4406-b041-d3b71df41cc5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Event_Created",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"AI/Ml Workshop\",\r\n  \"description\": \"Live workshop on AI/Ml\",\r\n  \"start_time\": \"2025-07-01T09:00:00\",\r\n  \"end_time\": \"2025-07-01T10:00:00\",\r\n  \"recurrence\": \"Monday\",\r\n  \"email\": \"ramchandraj760@gmail.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Event_Deleted",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Team Meeting\",\r\n  \"description\": \"Discuss upcoming sprint and issues\",\r\n  \"start_time\": \"2025-07-01T09:00:00\",\r\n  \"end_time\": \"2025-07-01T10:00:00\",\r\n  \"recurrence\": \"daily\",\r\n  \"email\": \"ramchandraj760@gmail.com\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events/46e17581-8833-4abb-85fd-aae419204394",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events",
+						"46e17581-8833-4abb-85fd-aae419204394"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Event_recruitment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Recruitment\",\r\n  \"description\": \"Discuss upcoming hiring processs\",\r\n  \"start_time\": \"2025-07-01T09:00:00\",\r\n  \"end_time\": \"2025-07-01T10:00:00\",\r\n  \"recurrence\": \"wednesday\",\r\n  \"email\": \"user@example.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

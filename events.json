@@ -25,5 +25,23 @@
         "end_time": "2025-07-01T10:00:00",
         "recurrence": "daily",
         "email": "ramchandraj760@gmail.com"
+    },
+    {
+        "id": "b95f604c-9603-4a65-82f6-3e3346a18831",
+        "title": "AI/Ml Workshop",
+        "description": "Live workshop on AI/Ml",
+        "start_time": "2025-07-01T09:00:00",
+        "end_time": "2025-07-01T10:00:00",
+        "recurrence": "Monday",
+        "email": "ramchandraj760@gmail.com"
+    },
+    {
+        "id": "29b36dd7-d2b3-4f49-b7e3-eb233f1fac71",
+        "title": "Recruitment",
+        "description": "Discuss upcoming hiring processs",
+        "start_time": "2025-07-01T09:00:00",
+        "end_time": "2025-07-01T10:00:00",
+        "recurrence": "wednesday",
+        "email": "user@example.com"
     }
 ]
