@@ -7,5 +7,23 @@
         "end_time": "2025-07-01T10:00:00",
         "recurrence": "Monday",
         "email": "ramchandraj760@gmail.com"
+    },
+    {
+        "id": "088e11ed-c81a-4259-af0f-9fc4b36e5de1",
+        "title": "AI/Ml Workshop",
+        "description": "Live workshop on AI/Ml",
+        "start_time": "2025-07-01T09:00:00",
+        "end_time": "2025-07-01T10:00:00",
+        "recurrence": "Monday",
+        "email": "ramchandraj760@gmail.com"
+    },
+    {
+        "id": "aa47f360-d2bc-4406-b041-d3b71df41cc5",
+        "title": "Team Meeting",
+        "description": "Discuss upcoming sprint and issues",
+        "start_time": "2025-07-01T09:00:00",
+        "end_time": "2025-07-01T10:00:00",
+        "recurrence": "daily",
+        "email": "ramchandraj760@gmail.com"
     }
 ]
