@@ -43,3 +43,29 @@ pip install -r requirements.txt
 Run the App
 python app.py
 
+
+how to use postman :
+
+Step 1: Open Postman
+Download and open Postman
+
+✅ Step 2: Import the Collection
+Click on Import (top-left).
+
+Choose File, then upload:
+
+EventScheduler.postman_collection.json from this repo
+
+Click Import
+
+✅ Step 3: Test Each API
+You will see 4 requests inside the collection:
+
+Create Event (POST)
+
+Get All Events (GET)
+
+Update Event (PUT)
+
+Delete Event (DELETE)
+```
